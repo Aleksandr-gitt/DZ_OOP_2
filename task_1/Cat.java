@@ -1,6 +1,6 @@
 package HomeWorkOOP_2.task_1;
 
-public class Cat implements Ianimal{
+public class Cat implements IhomeAnimal{
 
     String name;
 
@@ -29,5 +29,27 @@ public class Cat implements Ianimal{
     public void makeSound() {
         System.out.println(name + " is meow");
     }
+
+
+    @Override
+    public void jump() {
+        System.out.println(name + " is jump");
+    }
     
+    @Override
+    public String DogCat(){                 //изменил поведение default
+        return "Cat run from the dog";
+    }
+
+
+    @Override
+    public void catching() {
+        System.out.println("Cat catch fantik");
+    }
+
+
+    @Override
+    public void swim() {
+        System.out.println(Error);
+    }
 }

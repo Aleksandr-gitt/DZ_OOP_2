@@ -8,10 +8,28 @@ public class main {
 
 
         cat.eat();
-        dog.play();
+        cat.play();
         cat.sleep();
+        cat.makeSound();
+        cat.jump();
+        System.out.println("---------------");
+
         dog.eat();
-        
+        dog.play();
+        dog.sleep();
+        dog.makeSound();
+        dog.jump();
+        System.out.println("---------------");
+
+
+        System.out.println(dog.DogCat());
+        System.out.println(cat.DogCat());
+        dog.catching();
+        cat.catching();
+        System.out.println("---------------");
+
+        dog.swim();
+        cat.swim();
 
     }
     
